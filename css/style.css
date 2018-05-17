@@ -1,0 +1,946 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Arial", sans-serif;
+}
+.wrapper {
+    margin: 0;
+    position: relative;
+    height: 100%;
+}
+i {
+    color: rgba(0, 0, 0, 0.6);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin-top: 70px;
+    font-size: 25px;
+}
+ul li {
+    list-style: none;
+    line-height: 40px;
+}
+h1 {
+    font-size: 26px;
+    font-weight: 400;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #478BC6;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.45);
+}
+h2 span {
+    color: #FF0000;
+}
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.45);
+}
+.text_26px {
+    font-size: 26px;
+    font-weight: 400;
+    opacity: 0.9;
+    color: #000;
+}
+.white {
+    background-color: #fff;
+}
+.banner {
+    background: url(../image/usa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1080px;
+    color: #fff;
+}
+.header {
+    border-bottom: 2px solid #fff;
+    padding: 20px 15px 10px;
+}
+.tel {
+    font-size: 32px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.45);
+    text-align: right;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: right;
+}
+p.kh {
+    font-size: 28px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.45);
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.tel:hover {
+    color: #FF0000;
+}
+.banner_text {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 300px;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.8);
+
+}
+.steps {
+    margin-top: -9%;
+}
+.step_1,
+.step_2,
+.step_3 {
+    text-align: center;
+}
+.steps p {
+    line-height: 34px;
+    padding: 0 31px;
+    margin-top: 45px;
+}
+.services img {
+    text-align: center;
+    margin-top: 70px;
+}
+.dark_blue {
+    background-color: #478BC6;
+    margin-top: 100px;
+}
+.dark_blue h3 {
+    color: #fff;
+    padding: 10px 0;
+}
+.nessecery_documents img {
+    margin-top: 70px;
+    height: 450px;
+    max-width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0, 0.5);
+    padding: 0;
+}
+h4 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 20px;
+}
+.text_bold {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    color: #000;
+}
+.importent_text {
+    margin-top: 70px;
+}
+img.american_flag {
+    height: 250px;
+}
+.choose_us {
+    background: url("../image/back_blue.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 100px;
+}
+.choose_us h3 {
+    color: #FF0000;
+    padding: 10px;
+    text-shadow: 0 3px 6px rgba(0,0,0, 0.3);
+}
+.choose_us .white {
+    margin-top: 50px;
+}
+.elips {
+    width: 350px;
+    height: 175px;
+    display: block;
+    margin: 110px auto 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 175px / 87px;
+}
+.el_1 {
+    margin-left: 33%;
+}
+.el_2 {
+    margin-right: 33%;
+}
+.elips_text {
+    font-size: 24px;
+    text-align: center;
+    line-height: 34px;
+    color: #000;
+    opacity: 0.8;
+    padding: 16% 4%;
+}
+.elips:hover {
+    border: 2px solid #FF0000;
+}
+.myths_img img {
+    width: 100%;
+    margin-top: 100px;
+}
+.myths_ul ul {
+    font-size: 20px;
+}
+.myths_list ul {
+    margin-top: 10px;
+}
+.text_contact {
+    margin-top: 70px;
+    padding-top: 40px;
+    border-top: 1px solid #478BC6;
+}
+.text_contact p {
+    font-size: 24px;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.text_contact p:hover {
+     color: #FF0000;
+ }
+.text_contact a:hover {
+    color: #FF0000;
+}
+.text_contact a {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 700;
+}
+.footer {
+    background-color: #478BC6;
+    margin-top: 40px;
+}
+.footer p {
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.footer p a {
+    color: #fff;
+}
+.left p {
+    text-align: left;
+}
+.right p {
+    text-align: right;
+}
+
+
+
+@media screen and (max-width: 1800px) {
+    .banner {
+        height: 1044px;
+    }
+    .myths_ul h2 {
+        margin-top: 70px;
+    }
+    .choose_us {
+        height: 751px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    h1 {
+        font-size: 24px;
+    }
+    .header {
+        padding: 20px 15px 10px;
+    }
+    .tel {
+        font-size: 24px;
+    }
+    p.kh {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+    .banner_text {
+        font-size: 48px;
+    }
+    .banner {
+        height: 929px;
+    }
+    .steps p {
+        line-height: 28px;
+        padding: 0 40px;
+        margin-top: 43px;
+        font-size: 23px;
+    }
+    .steps img {
+        width: 50%;
+    }
+    ul {
+        font-size: 22px;
+    }
+    .services img {
+        margin-top: 52px;
+    }
+    .nessecery_documents img {
+        height: 357px;
+    }
+    img.american_flag {
+        height: 250px;
+    }
+    .elips {
+        margin: 70px auto 0;
+    }
+    .el_1 {
+        margin-left: 33%;
+    }
+    .el_2 {
+        margin-right: 33%;
+    }
+    .choose_us {
+        height: 665px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .banner_text {
+        font-size: 40px;
+        margin-top: 250px;
+    }
+    .banner {
+        height: 836px;
+    }
+    .steps img {
+        width: 40%;
+    }
+    .steps {
+        margin-top: -7%;
+    }
+    .steps p {
+        line-height: 28px;
+        padding: 0 11px;
+        margin-top: 43px;
+        font-size: 19px;
+    }
+    h2 {
+        font-size: 42px;
+        margin-top: 70px;
+    }
+    ul {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .services img {
+        margin-top: 12px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .nessecery_documents img {
+        height: 350px;
+        margin-top: 50px;
+    }
+    .importent_text {
+        margin-top: 50px;
+    }
+    .text_bold {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 36px;
+    }
+    img.american_flag {
+        height: 225px;
+    }
+    .choose_us .white {
+        margin-top: 30px;
+    }
+    .elips {
+        margin: 50px auto 0;
+        width: 300px;
+        height: 150px;
+        border-radius: 150px / 75px;
+    }
+    .elips_text {
+        font-size: 21px;
+        padding: 15% 4%;
+    }
+    .el_1 {
+        margin-left: 33%;
+    }
+    .el_2 {
+        margin-right: 33%;
+    }
+    .choose_us {
+        height: 596px;
+    }
+    .myths_ul h2 {
+        margin-top: 50px;
+    }
+    .myths_ul ul {
+        font-size: 18px;
+    }
+    .myths_ul ul li {
+        line-height: 30px;
+    }
+    .myths_img img {
+        width: 100%;
+        margin-top: 27px;
+    }
+    .text_contact p {
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .banner_text {
+        font-size: 35px;
+        margin-top: 240px;
+        line-height: 50px;
+        margin-right: 15px;
+    }
+    .header {
+        border-bottom: 1px solid #fff;
+        padding: 15px 25px 10px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    p.kh {
+        font-size: 20px;
+        margin-right: 25px;
+    }
+    .tel {
+        text-shadow: 0 3px 10px rgba(0, 0, 0, 0.45);
+    }
+    .banner {
+        height: 792px;
+    }
+    .steps p {
+        line-height: 28px;
+        padding: 0 60px;
+        margin-top: 27px;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 38px;
+        margin-top: 70px;
+    }
+    .choose_us {
+        height: 570px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    .banner {
+        height: 731px;
+    }
+    .services img {
+        margin-top: 71px;
+        width: 27%;
+    }
+    .choose_us {
+        height: 524px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .banner {
+        height: 696px;
+    }
+    .banner_text {
+        margin-top: 215px;
+    }
+    ul {
+        font-size: 18px;
+    }
+    ul li {
+        line-height: 34px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .dark_blue {
+        margin-top: 70px;
+    }
+    .nessecery_documents img {
+        height: 300px;
+        margin-top: 50px;
+    }
+    h4 {
+        font-size: 32px;
+    }
+    .text_bold {
+        font-size: 18px;
+    }
+    img.american_flag {
+        height: 200px;
+    }
+    .elips {
+        margin: 40px auto 0;
+    }
+    .elips_text {
+        font-size: 16px;
+        padding: 15% 9%;
+    }
+    .myths_img img {
+        margin-top: 78px;
+    }
+    .choose_us {
+        height: 500px;
+    }
+    .el_1 {
+        margin-left: 33%;
+    }
+    .el_2 {
+        margin-right: 33%;
+    }
+    .text_contact p {
+        font-size: 18px;
+    }
+    .footer {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner_text {
+        margin-top: 150px;
+    }
+    .banner {
+        height: 594px;
+    }
+    .nessecery_documents img {
+        left: 4%;
+    }
+    img.american_flag {
+        left: 0;
+    }
+    .choose_us {
+        height: 428px;
+    }
+    .elips {
+        margin: 15px auto 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size: 19px;
+    }
+    .tel {
+        font-size: 20px;
+    }
+    .banner_text {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .banner_text {
+        margin-top: 150px;
+    }
+    .banner {
+        height: 574px;
+    }
+    .steps p {
+        line-height: 24px;
+        padding: 0 20px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-top: 50px;
+    }
+    ul li {
+        line-height: 24px;
+    }
+    ul {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 22px;
+        text-shadow: 0 2px 7px rgba(0, 0, 0, 0.45);
+    }
+    .dark_blue h3 {
+        padding: 8px 0;
+    }
+    .nessecery_documents img {
+        height: 250px;
+        margin-top: 54px;
+    }
+    .nessecery_documents img {
+        height: 250px;
+        margin: 50px auto 0;
+        display: block;
+    }
+    h4 {
+        font-size: 28px;
+    }
+    .text_bold {
+        line-height: 28px;
+    }
+    .choose_us {
+        margin-top: 70px;
+    }
+    .choose_us h3 {
+        padding: 8px;
+        text-shadow: 0 2px 6px rgba(0,0,0, 0.3);
+    }
+    .choose_us .white {
+        margin-top: 25px;
+    }
+    .elips {
+        margin: 32px auto 0;
+        width: 250px;
+        height: 125px;
+        border-radius: 125px / 62px;
+    }
+    .elips_text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .el_1 {
+        margin-left: 33%;
+    }
+    .el_2 {
+        margin-right: 33%;
+    }
+    .choose_us {
+        height: 411px;
+    }
+    .myths_ul ul li {
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .myths_img img {
+        margin-top: 90px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 16px;
+    }
+    p.kh {
+        font-size: 16px;
+    }
+    .header {
+        padding: 10px 25px 10px;
+    }
+    .banner_text {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .banner_text {
+        margin-top: 116px;
+    }
+    .banner {
+        height: 445px;
+    }
+    .steps p {
+        line-height: 20px;
+        padding: 0 20px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    ul li {
+        padding: 0 20px;
+    }
+    ul {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .nessecery_documents img {
+        left: 8%;
+    }
+    .importent_text {
+        margin-top: 25px;
+        padding-left: 60px;
+    }
+    .text_bold {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    h4 {
+        margin-bottom: 10px;
+    }
+    img.american_flag {
+        height: 200px;
+        left: 2%;
+    }
+    .elips {
+        margin: 20px auto 0;
+        width: 200px;
+        height: 100px;
+        border-radius: 100px / 50px;
+    }
+    .el_1 {
+        margin-left: 33%;
+    }
+    .el_2 {
+        margin-right: 33%;
+    }
+    .elips_text {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 16% 5%;
+    }
+    .choose_us {
+        height: 319px;
+    }
+    ul {
+        margin-top: 30px;
+    }
+    .myths_ul ul li {
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .myths_img img {
+        margin-top: 57px;
+        margin-left: 22px;
+    }
+    .text_contact p {
+        font-size: 16px;
+    }
+    .text_contact {
+        margin-top: 50px;
+        padding-top: 30px;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 15px 25px 10px;
+    }
+    .banner_text {
+        margin-top: 90px;
+    }
+    .steps p {
+        line-height: 20px;
+        padding: 0 206px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .steps img {
+        width: 27%;
+    }
+    .services img {
+        margin-top: 48px;
+    }
+    ul li {
+        padding: 0 25px;
+    }
+    .nessecery_documents img {
+        height: 247px;
+        margin: 35px auto 0;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .header {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 11px;
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.45);
+    }
+    .tel {
+        font-size: 14px;
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.45);
+    }
+    p.kh {
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .banner_text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .banner_text {
+        margin-top: 42px;
+    }
+    .banner {
+        height: 240px;
+    }
+    img {
+        width: 20%;
+    }
+    .steps {
+        margin-top: -11%;
+    }
+    .steps p {
+        line-height: 20px;
+        padding: 0 46px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .services img {
+        display: none;
+    }
+    .list_services.col-lg-8.col-md-8.col-sm-8.col-xs-8 {
+        width: 100%;
+    }
+    .dark_blue {
+        margin-top: 30px;
+    }
+    .dark_blue h3 {
+        padding: 5px 0;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    .nessecery_documents img.img_1 {
+       display: none;
+    }
+    .doc.col-lg-7.col-lg-push-1.col-md-7.col-md-push-1.col-sm-7.col-sm-push-1.col-xs-7.col-xs-push-1 {
+        width: 100%;
+        margin-left: -30px;
+        margin-top: 15px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .importent_text {
+        margin-top: 15px;
+        padding-left: 46px;
+    }
+    .text_bold {
+        line-height: 19px;
+        font-size: 15px;
+    }
+    .nessecery_documents img {
+        height: 208px;
+        margin: 30px auto 0;
+    }
+    .choose_us {
+        display: none;
+    }
+    .myths_ul h2 {
+        margin-top: 30px;
+    }
+    .myths_img {
+        display: none;
+    }
+    .nessecery_documents img {
+       display: none;
+    }
+    .myths_ul ul li {
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .footer p {
+        font-size: 8px;
+    }
+    .text_contact p {
+        font-size: 14px;
+        padding: 2px 0;
+    }
+    .text_contact {
+        margin-top: 30px;
+        padding-top: 25px;
+    }
+    .footer {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .banner {
+        height: 218px;
+    }
+    h1 {
+        font-size: 10px;
+    }
+    .banner_text {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .banner_text {
+        margin-top: 20px;
+    }
+    ul {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .dark_blue h3 {
+        padding: 5px 10px;
+    }
+    h3 {
+        font-size: 13px;
+    }
+    .footer p {
+        font-size: 7px;
+    }
+    .steps img {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 9px;
+    }
+    .banner_text {
+        font-size: 12px;
+    }
+    .banner {
+        height: 210px;
+    }
+    .text_bold {
+        line-height: 17px;
+        font-size: 13px;
+    }
+    .myths_ul ul li {
+        line-height: 17px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 8px;
+    }
+    .banner {
+        height: 187px;
+    }
+    .banner_text {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .banner_text {
+        margin-top: 10px;
+    }
+    h2 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .list_services.col-lg-8.col-md-8.col-sm-8.col-xs-8 {
+        width: 102%;
+    }
+    .text_bold {
+        line-height: 17px;
+        font-size: 11px;
+    }
+    .footer p {
+        font-size: 6px;
+    }
+}
